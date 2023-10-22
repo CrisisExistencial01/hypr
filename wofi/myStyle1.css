@@ -1,0 +1,23 @@
+window {
+margin: 5px;
+border-radius: 15px;
+border: 2px #292C35;
+background-color: #17181D;
+} 
+#input {
+margin: 5px;
+border-radius: 15px;
+border: 2px #FCD9B8;
+background-color: #FCD9B8;
+}
+#text {
+margin: 5px;
+border: 2px #E09145;
+background-color: None;
+color: #E09145;
+
+font-style: bold;
+/*
+font-family: "Lucida Console", "Courier New", monospace;
+*/
+}

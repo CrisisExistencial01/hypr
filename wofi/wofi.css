@@ -1,0 +1,26 @@
+ window {
+margin: 5px;
+border-radius: 10px;
+border: 2px #1F2D16;
+background-color: #545E45;
+} 
+
+#input {
+margin: 8px;
+border-radius: 15px;
+border: 2px #DDA15E;
+background-color: #FEFAE0;
+}
+
+#inner-box {
+margin: 5px;
+border: 2px solid yellow;
+background-color: #BE6731;
+}
+/*
+#scroll {
+margin: 5px;
+border: 2px solid orange;
+background-color: orange;
+}
+*/

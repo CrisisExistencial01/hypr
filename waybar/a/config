@@ -1,0 +1,41 @@
+{
+  "layer": "top",
+  "position": "top",
+  "modules-left": [
+    "custom/battery",
+    "custom/wifi",
+    "custom/bluetooth",
+  ],
+  "modules-center": [
+    "clock",
+  ],
+  "modules-right": [
+    "custom/volume",
+    "custom/brightness",
+  ],
+  "custom/battery": {
+    "format": " {capacity}%",  // Icono de batería y nivel de capacidad
+    "full-at": 95,               // Umbral para considerar la batería como completamente cargada
+    "interval": 30,              // Intervalo de actualización en segundos
+  },
+  "custom/wifi": {
+    "format-connected": " {essid}",  // Icono de Wi-Fi y nombre de la red conectada
+    "format-disconnected": " Sin conexión",  // Icono para Wi-Fi desconectado
+    "interval": 10,  // Intervalo de actualización en segundos
+  },
+  "custom/bluetooth": {
+    "format-connected": " {device}",  // Icono de Bluetooth y nombre del dispositivo conectado
+    "format-disconnected": " Sin conexión",  // Icono para Bluetooth desconectado
+    "interval": 10,  // Intervalo de actualización en segundos
+  },
+  "custom/volume": {
+    "format": " {volume}%",  // Icono de volumen y nivel de volumen
+    "device": "default",       // Dispositivo de audio
+    "scroll-step": 2,          // Pasos para ajustar el volumen con la rueda del ratón
+  },
+  "custom/brightness": {
+    "format": " {percent}%",  // Icono de brillo y porcentaje de brillo
+    "device": "screen0",       // Dispositivo de pantalla
+  }
+}
+
